@@ -1,8 +1,8 @@
 class pghoard::install {
 
   package{ [
-    'python-psycopg2',
-    'python-request',
+    'python3-psycopg2',
+    'python3-requests',
     'python3-cryptography',
   ]:
       ensure => 'installed',
